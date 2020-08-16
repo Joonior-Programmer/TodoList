@@ -1,0 +1,79 @@
+.greetForm,
+.greeting {
+  display : none;
+  color: white;
+
+}
+
+.clock{
+  color: white;
+  font-size: 70px;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.weather {
+  color: white;
+  font-weight: bold;
+  display: table;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  height: 300;
+
+
+}
+
+input{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+ul {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  color: white;
+
+}
+
+button{
+  margin : 5px;
+}
+
+
+.showing{
+
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  vertical-align: middle;
+}
+
+body{
+  background-color : #40739e;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
+}
+
+.bgImage{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:-1;
+  animation: fadeIn 1s linear;
+}
