@@ -16,7 +16,7 @@ const IMG_Number = 10;
 
 function paintImage(IMG_Number){
   const image = new Image();
-  image.src = `C:/Users/kkjh6/Documents/GitHub/ing/image/${IMG_Number}.jpg`;
+  image.src = `./image/${IMG_Number}.jpg`;
   image.classList.add("bgImage");
   body.appendChild(image);
 
